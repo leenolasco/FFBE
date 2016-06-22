@@ -15,7 +15,7 @@ public class UnitsContent extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.unit_fragment,container,false);
+        View v = inflater.inflate(R.layout.unit_fragment, container, false);
         return v;
     }
 }
