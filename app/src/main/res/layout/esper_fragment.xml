@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:fillViewport="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnSiren"
+                android:layout_width="@dimen/espersize"
+                android:layout_height="@dimen/espersize"
+                android:layout_marginTop="@dimen/espermargingtop"
+                android:background="@mipmap/siren2"
+                android:scaleType="fitXY" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/sirenName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:layout_marginTop="25dp"
+                    android:gravity="start"
+                    android:text="Name: Siren \nLocation: Siren's Tower\nSkill Name: Lunatic Voice\nEffect: AOE Water Damage + Chance to Sleep"
+                    android:textColor="#000000"
+                    android:textSize="13sp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/sirenInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:text="Read more"
+                    android:textColor="#0000EE" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnIfrit"
+                android:layout_width="@dimen/espersize"
+                android:layout_height="@dimen/espersize"
+                android:layout_marginTop="@dimen/espermargingtop"
+                android:background="@mipmap/ifrit2"
+                android:scaleType="fitXY" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/ifritName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:layout_marginTop="25dp"
+                    android:gravity="start"
+                    android:text="Name: Ifrit \nLocation: Inferno Hollow\nSkill Name: Hellfire\nEffect: Fire Damage to all enemies"
+                    android:textColor="#000000"
+                    android:textSize="13sp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/ifritInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:text="Read more"
+                    android:textColor="#0000EE" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnGolem"
+                android:layout_width="@dimen/espersize"
+                android:layout_height="@dimen/espersize"
+                android:layout_marginTop="@dimen/espermargingtop"
+                android:background="@mipmap/golem2"
+                android:scaleType="fitXY" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/golemName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:layout_marginTop="25dp"
+                    android:gravity="start"
+                    android:text="Name: Golem \nLocation: Zadehl Southersands\nSkill Name: Earthen Wall\nEffect: 	Decrease physical damage taken for all allies"
+                    android:textColor="#000000"
+                    android:textSize="13sp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/golemInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:text="Read more"
+                    android:textColor="#0000EE" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnShiva"
+                android:layout_width="@dimen/espersize"
+                android:layout_height="@dimen/espersize"
+                android:layout_marginTop="@dimen/espermargingtop"
+                android:background="@mipmap/shiva"
+                android:scaleType="fitXY" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/shivaName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:layout_marginTop="25dp"
+                    android:gravity="start"
+                    android:text="Name: Shiva \nLocation: Lanzelt Mountains\nSkill Name: Diamond Dust\nEffect: 	Ice Damage to all enemies"
+                    android:textColor="#000000"
+                    android:textSize="13sp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/shivaInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:text="Read more"
+                    android:textColor="#0000EE" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+

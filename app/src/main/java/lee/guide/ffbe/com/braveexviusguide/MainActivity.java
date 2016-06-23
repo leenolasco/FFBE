@@ -32,11 +32,12 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
+        drawer.addDrawerListener(toggle);
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        drawer.openDrawer(GravityCompat.START);
     }
 
     @Override
@@ -81,14 +82,24 @@ public class MainActivity extends AppCompatActivity
 
             UnitsContent fragment = new UnitsContent();
             android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.add(R.id.main_fragment, fragment);
+            fragmentTransaction.replace(R.id.main_fragment, fragment);
             fragmentTransaction.commit();
             onBackPressed();
             return true;
         } else if (id == R.id.nav_esper) {
-
+            Esper fragment = new Esper();
+            android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.main_fragment, fragment);
+            fragmentTransaction.commit();
+            onBackPressed();
+            return true;
         } else if (id == R.id.nav_towns) {
-
+            Towns fragment = new Towns();
+            android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.main_fragment, fragment);
+            fragmentTransaction.commit();
+            onBackPressed();
+            return true;
         } else if (id == R.id.nav_exploration) {
 
         }
