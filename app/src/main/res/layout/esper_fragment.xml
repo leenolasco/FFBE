@@ -20,6 +20,7 @@
 
             <ImageButton
                 android:id="@+id/btnSiren"
+                style="?android:borderlessButtonStyle"
                 android:layout_width="@dimen/espersize"
                 android:layout_height="@dimen/espersize"
                 android:layout_marginTop="@dimen/espermargingtop"
@@ -37,7 +38,7 @@
                     android:layout_gravity="left|top"
                     android:layout_marginTop="25dp"
                     android:gravity="start"
-                    android:text="Name: Siren \nLocation: Siren's Tower\nSkill Name: Lunatic Voice\nEffect: AOE Water Damage + Chance to Sleep"
+                    android:text="Name: Siren \nLocation: Siren's Tower\nSkill Name: Lunatic Voice\nEffect: AOE Water Damage + Chance to Sleep\nElement: Water"
                     android:textColor="#000000"
                     android:textSize="13sp"
                     android:typeface="serif" />
@@ -47,7 +48,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center"
-                    android:text="Read more"
+                    android:text="More Info"
                     android:textColor="#0000EE" />
             </FrameLayout>
 
@@ -56,10 +57,12 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#3F51B5"
             android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/btnIfrit"
+                style="?android:borderlessButtonStyle"
                 android:layout_width="@dimen/espersize"
                 android:layout_height="@dimen/espersize"
                 android:layout_marginTop="@dimen/espermargingtop"
@@ -77,8 +80,8 @@
                     android:layout_gravity="left|top"
                     android:layout_marginTop="25dp"
                     android:gravity="start"
-                    android:text="Name: Ifrit \nLocation: Inferno Hollow\nSkill Name: Hellfire\nEffect: Fire Damage to all enemies"
-                    android:textColor="#000000"
+                    android:text="Name: Ifrit \nLocation: Inferno Hollow\nSkill Name: Hellfire\nEffect: Fire Damage to all enemies\nElement: Fire"
+                    android:textColor="#FFFFFF"
                     android:textSize="13sp"
                     android:typeface="serif" />
 
@@ -87,8 +90,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center"
-                    android:text="Read more"
-                    android:textColor="#0000EE" />
+                    android:text="More Info"
+                    android:textColor="#FFFFFF" />
             </FrameLayout>
 
         </LinearLayout>
@@ -117,7 +120,7 @@
                     android:layout_gravity="left|top"
                     android:layout_marginTop="25dp"
                     android:gravity="start"
-                    android:text="Name: Golem \nLocation: Zadehl Southersands\nSkill Name: Earthen Wall\nEffect: 	Decrease physical damage taken for all allies"
+                    android:text="Name: Golem \nLocation: Zadehl Southersands\nSkill Name: Earthen Wall\nEffect: 	Decrease physical damage taken for all allies\nElement: Earth"
                     android:textColor="#000000"
                     android:textSize="13sp"
                     android:typeface="serif" />
@@ -127,7 +130,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center"
-                    android:text="Read more"
+                    android:text="More Info"
                     android:textColor="#0000EE" />
             </FrameLayout>
 
@@ -137,6 +140,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#3F51B5"
             android:orientation="horizontal">
 
             <ImageButton
@@ -158,8 +162,8 @@
                     android:layout_gravity="left|top"
                     android:layout_marginTop="25dp"
                     android:gravity="start"
-                    android:text="Name: Shiva \nLocation: Lanzelt Mountains\nSkill Name: Diamond Dust\nEffect: 	Ice Damage to all enemies"
-                    android:textColor="#000000"
+                    android:text="Name: Shiva \nLocation: Lanzelt Mountains\nSkill Name: Diamond Dust\nEffect: 	Ice Damage to all enemies\nElement: Ice"
+                    android:textColor="#FFFFFF"
                     android:textSize="13sp"
                     android:typeface="serif" />
 
@@ -168,8 +172,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center"
-                    android:text="Read more"
-                    android:textColor="#0000EE" />
+                    android:text="More Info"
+                    android:textColor="#FFFFFF" />
             </FrameLayout>
 
         </LinearLayout>

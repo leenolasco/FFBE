@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table_esper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="100"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:padding="10dp"
+            android:showDividers="middle|beginning|end"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_weight="25"
+                android:gravity="center"
+                android:text="@string/status"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textClock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_weight="25"
+                android:gravity="center"
+                android:text="        Initial"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textClock1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_weight="25"
+                android:gravity="center"
+                android:text="    Max 1*"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textClock2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_weight="25"
+                android:gravity="center"
+                android:text="Max 2*"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+
+
+    </TableLayout>
+</LinearLayout>

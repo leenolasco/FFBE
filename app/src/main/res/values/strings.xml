@@ -3,6 +3,39 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
     <string name="action_settings">Settings</string>
+    <string name="siren_lore">"An esper that was long ago sealed away in Siren\'s Tower due to its fearsome power. It looks like a bewitching young woman with beautiful wings like those of bird. Those who hear its heavenly voice were said to be mesmerized by it\'s power that they would throw themselves into the sea"</string>
+    <string name="stats">"Stats"</string>
+    <string name="status">"Status"</string>
+    <string name="init_val">"Initial Value"</string>
+    <string name="maxstats_1">"Max Value (1*)"</string>
+    <string name="maxstats_2">"Max Value (2*)"</string>
+    <string name="cure">"Cure"</string>
+    <string name="cure_effect">"Heal (150HP, 3x) to one ally"</string>
+    <string name="cleanse">"Cleanse"</string>
+    <string name="cleanse_effect">"Cure disease to one ally"</string>
+    <string name="blind">"Blind"</string>
+    <string name="blind_effect">"Blind (40%) to one enemy"</string>
+    <string name="sleep">"Sleep"</string>
+    <string name="sleep_effect">"Sleep (40%) to one enemy"</string>
+    <string name="analyze">"Analyze"</string>
+    <string name="analyze_effect">"View info on one enemy"</string>
+    <string name="alluring_air">"Alluring Air"</string>
+    <string name="alluring_air_effect">"Confuse (30%) to all enemies"</string>
+    <string name="attack_song">"Attack Song"</string>
+    <string name="attack_song_effect">"ATK +(40%) 3 turns to all allies"</string>
+    <string name="defense">"Defense Song"</string>
+    <string name="defense_song_effect">"DEF +(40%) 3 turns to all allies"</string>
+    <string name="paean">"Paean"</string>
+    <string name="paean_effect">"Heal 3 turns to all allies"</string>
+    <string name="water">"Water"</string>
+    <string name="water_effect">"Water magic damage (1.2x) ST"</string>
+    <string name="barwater">"Barwater"</string>
+    <string name="barwater_effect">"+Water resist(30%) for 3 turns ST"</string>
+    <string name="shell">"Shell"</string>>
+    <string name="shell_effect">"-SPR (20%) for 3 turns ST"</string>>
+    <string name="deshell">"Deshell"</string>>
+    <string name="deshell_effect">"-SPR (20%) for 3 turns ST"</string>>
+    <string name="dispell">"Dispell"</string>>
+    <string name="dispell_effect">"Remove all buffs from target"</string>>
 </resources>
